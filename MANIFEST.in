@@ -1,0 +1,4 @@
+include rapi/DESCRIPTION
+include rapi/NAMESPACE
+include rapi/R/*
+include rapi/inst/*

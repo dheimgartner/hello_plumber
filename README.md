@@ -31,4 +31,4 @@ with RApiConsumer(port=8000):
         print(f"Request error: {e}")
 ```
 
-The API server can be started from the cli `start_api`: Navigate to the `http://127.0.0.1:8000/__docs__/` to check out the documentation and test it in a GUI environment.
+The API server can be started from the cli `start_rapi`: Navigate to the `http://127.0.0.1:8000/__docs__/` to check out the documentation and test it in a GUI environment.

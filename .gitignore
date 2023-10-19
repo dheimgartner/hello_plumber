@@ -234,4 +234,5 @@ fabric.properties
 
 
 # me
-env/
+env/*
+_build/*

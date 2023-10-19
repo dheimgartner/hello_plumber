@@ -1,10 +1,4 @@
-.PHONY: install_r_package, uninstall_r_package, test, format, requirements, start_api
-
-install_r_package:
-	@install_rapi
-
-uninstall_r_package:
-	@uninstall_rapi
+.PHONY: test, format, requirements, start_api, build, build_clean
 
 test:
 	@pytest
@@ -17,3 +11,9 @@ requirements:
 
 start_api:
 	@Rscript -e "library(rapi); rapi::run()"
+
+build:
+	@bash scripts/build.sh
+
+build_clean:
+	@rm -rf _build

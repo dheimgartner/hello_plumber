@@ -1,1 +1,1 @@
-include hello_plumber/rapi/*
+recursive-include hello_plumber/rapi/*
